@@ -25,7 +25,7 @@ if [ "$so1" != "0" ];
                 sudo yum update
                 fi
 
-elif [ "$so2" != "2" ];
+elif [ "$so2" != "0" ];
         then
                 echo "Ubuntu"
                 antivirus2=$(apt list --installed | sudo grep "clamav")
